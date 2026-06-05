@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 2px solid white;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+.signature {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    text-align:center;
+}
+a:hover {
+    font-size: 1.2em;
+    color: red;
+    transition: 0.3s ease;
+}
